@@ -1,6 +1,6 @@
 import java.text.SimpleDateFormat;
 
-// This pipeline expects a paramater newcolor which will set the newcolor of the newly deployed application.   
+// This pipeline expects a paramater newcolor which will set the newcolor of the newly deployed application.    
 
 node {
   // Blue/Green Deployment into Production . 
