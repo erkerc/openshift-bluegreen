@@ -15,10 +15,10 @@ node {
         newcolor="red"
         break
     case 2:
-        newcolor="yellow"
+        newcolor="maroon"
         break
     case 3:
-        newcolor="maroon"
+        newcolor="yellow"
         break
     case 4:
         newcolor="magenta"
