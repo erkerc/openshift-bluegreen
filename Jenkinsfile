@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat;
 // This pipeline expects a x paramater newcolor    which will set the newcolor of the newly deployed application.    
 
 node {
-  // Blue/Green Deployment into Production. New deployment - version 2
+  // Blue/Green Deployment into Production. New version
   // -------------------------------------
   def project  = ""
   def dest     = "example-green"
