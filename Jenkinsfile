@@ -61,7 +61,7 @@ node {
 
   stage('Build new version') {
     // Building in this case means simply changing the environment
-    // variable newcolor in the deployment configuration.
+    // variable newcolor in the deployment configuration..
     // There is not Build Configuration since this is a straight
     // up Docker Image deployment.
     echo "Building ${dest}"
