@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat;
 // This pipeline expects a x paramater newcolor    which will set the newcolor of the newly deployed application.    
 
 node {
-  // Blue/Green Deployment into Production. New versionsdss
+  // Blue/Green Deployment into Production. Updated jenkins file
   // -------------------------------------
   def project  = ""
   def dest     = "example-green"
@@ -61,7 +61,7 @@ node {
 
   stage('Build new version') {
     // Building in this case means simply changing the environment
-    // variable newcolor in the deployment configuration..ss
+    // variable newcolor in the deployment configuration..
     // There is not Build Configuration since this is a straight
     // up Docker Image deployment.
     echo "Building ${dest}"
